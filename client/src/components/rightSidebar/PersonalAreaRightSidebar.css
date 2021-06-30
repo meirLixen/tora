@@ -1,0 +1,57 @@
+.personal_area_right_sidebar {
+  margin-top: 70px;
+  margin-right: 15px;
+}
+.personal_area_right_sidebar .name {
+  user-select: none;
+  margin-top: 18px;
+  margin-right: 5px;
+  font-size: 18px;
+  cursor: auto;
+}
+.personal_area_right_sidebar .settings {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  /* justify-content: center; */
+  width: 88px;
+  height: 12px;
+}
+.personal_area_right_sidebar .settings:hover {
+  color: blue;
+}
+
+.personal_area_right_sidebar .settings:active {
+  font-size: 11.5px;
+}
+.personal_area_right_sidebar .settings span {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal_area_right_sidebar .settings svg {
+  margin-left: 3px;
+}
+.personal_area_right_sidebar .activity {
+  margin-right: 10px;
+  margin-top: 65px;
+  line-height: 24px;
+  font-size: 22px;
+}
+.activity .items {
+  margin-top: 30px;
+  cursor: pointer;
+  user-select: none;
+  width: 160px;
+  text-align: center;
+}
+.activity .items:hover {
+  color: blue;
+}
+.activity .items:active {
+  font-size: 23px;
+}

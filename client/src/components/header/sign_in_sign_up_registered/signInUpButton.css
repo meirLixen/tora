@@ -1,0 +1,7 @@
+.header .sign_in_up_button {
+  cursor: pointer;
+  margin-left: 2vw;
+  height: 35px;
+  width: 10vw;
+  color: black;
+}

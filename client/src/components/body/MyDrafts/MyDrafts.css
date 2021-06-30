@@ -1,0 +1,68 @@
+.title_my_torahs {
+  text-align: center;
+  font-weight: 800;
+}
+.my_torahs .torah {
+  border-radius: 10px;
+  min-width: 510px;
+  padding: 1vw;
+  margin-left: auto;
+  width: 60vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(46, 46, 56);
+  margin-right: auto;
+  margin-top: 29px;
+}
+
+.date_and_numberResponses {
+  display: flex;
+}
+/* .date_and_numberResponses .date {
+
+} */
+
+.date_and_numberResponses .numberResponses {
+  margin-right: auto;
+}
+.date_and_numberResponses .numberResponses svg {
+  vertical-align: middle;
+}
+.date_and_numberResponses .numberResponses span {
+  margin-right: 6px;
+}
+
+.my_torahs .torah .title {
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.my_torahs .torah .tags {
+  margin-bottom: 6px;
+  margin-top: 1.5vw;
+  text-align: end;
+  width: 38vw;
+  margin-right: auto;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.my_torahs .torah .tags .tag {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #c4c4c4;
+  margin-left: 2vw;
+  border-color: #c4c4c4;
+}
+.my_torahs .torah .tags .tag .ladder {
+  font-size: 11px;
+  margin-left: 1px;
+}

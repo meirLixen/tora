@@ -1,0 +1,9 @@
+.vscode
+node_modules
+.env
+client/node_modules
+client/html
+client/src/services/domainAndPort
+config/sendMail.js
+config/pg.js
+zzztest

@@ -1,0 +1,28 @@
+.add_torah {
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+
+.add_torah .title_of_tora {
+  font-size: 30px;
+  width: 100%;
+  background-color: #dcdcdc69;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.add_torah .title_of_tora:focus {
+  outline: none;
+  border-color: hsl(208deg 79% 51%);
+}
+/* .ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable .ck-rounded-corners {
+  min-height: 200px;
+} */
+/* .ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable .ck-rounded-corners * {
+  direction: rtl;
+  text-align: right;
+} */

@@ -1,0 +1,16 @@
+.header .logo {
+  cursor: pointer;
+  min-width: 81px;
+  width: 81px;
+  text-align: center;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  user-select: none;
+}
+
+.header .logo span {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 900;
+  user-select: none;
+}

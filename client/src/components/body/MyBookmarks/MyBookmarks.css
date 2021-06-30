@@ -1,0 +1,40 @@
+ul{
+    margin: 20px;
+}
+ul .my_bookmarks li{
+    /* display: inline-block; */
+    
+    
+    width: fit-content;
+    cursor: pointer;
+    user-select: none;
+}
+ul .my_bookmarks li:hover{
+    background-color: #09090952;
+}
+ul .my_bookmarks{
+    /* width: fit-content; */
+    background-color: #09090933;
+    padding: 1px 5px 1px 5px;
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+ul .my_bookmarks div{
+    cursor: pointer;
+    margin-right: auto;
+}
+ul .my_bookmarks div:hover{
+    background-color: #09090952;
+}
+ul .my_bookmarks svg{
+    vertical-align: text-top;
+
+}
+.edit_bookmark{
+    position: relative;
+}

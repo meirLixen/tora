@@ -1,0 +1,6 @@
+.header .hebrew_date {
+  user-select: none;
+  width: 16vw;
+  margin-left: 18vw;
+  text-align: center;
+}

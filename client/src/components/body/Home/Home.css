@@ -1,0 +1,101 @@
+.torah_innovations .innovat {
+  border-radius: 10px;
+  min-width: 510px;
+  padding: 1vw;
+  margin-left: auto;
+  width: 60vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(46, 46, 56);
+  margin-right: auto;
+  margin-top: 29px;
+}
+
+.torah_innovations .innovat .user_and_date {
+  display: grid;
+  grid-template-columns: 40px auto 80px 80px;
+  grid-template-rows: 20px 20px;
+  column-gap: 5px;
+  user-select: none;
+}
+.user_and_date .svg_user {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 40px;
+  height: 40px;
+}
+.user_and_date .author {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 18px;
+}
+.user_and_date .date {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 12px;
+}
+.user_and_date .numberResponses svg {
+  vertical-align: middle;
+
+  margin-left: 4px;
+  width: 15px;
+}
+.user_and_date .save svg {
+  vertical-align: middle;
+  margin-left: 4px;
+  width: 15px;
+}
+.user_and_date .save {
+  position: relative;
+}
+.save_internal{
+  cursor: pointer;
+
+}
+.user_and_date .save .save_as {
+  position: absolute;
+  pointer-events: none;
+}
+.user_and_date .save .save_as input,
+.user_and_date .save .save_as button {
+  pointer-events: auto;
+}
+.torah_innovations .innovat .title {
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+}
+.torah_innovations .innovat .tags {
+  margin-bottom: 6px;
+  margin-top: 1.5vw;
+  text-align: end;
+  width: 38vw;
+  margin-right: auto;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.torah_innovations .innovat .tags .tag {
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #c4c4c4;
+  margin-left: 2vw;
+  border-color: #c4c4c4;
+}
+.torah_innovations .innovat .tags .tag .ladder {
+  font-size: 11px;
+  margin-left: 1px;
+}

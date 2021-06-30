@@ -1,0 +1,13 @@
+.header .registered_user {
+  width: 24vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.abc svg {
+  height: 20px;
+  width: 20px;
+}

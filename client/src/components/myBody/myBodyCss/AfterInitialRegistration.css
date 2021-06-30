@@ -1,0 +1,17 @@
+.after_initial_registration {
+  border-style: solid;
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  margin: 9vw;
+  border-color: #d2c9d1;
+  border-radius: 30px;
+}
+.after_initial_registration div {
+  text-align: center;
+}
+.link_1234567890 {
+  text-align: center;
+}
